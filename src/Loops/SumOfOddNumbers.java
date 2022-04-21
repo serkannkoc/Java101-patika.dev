@@ -7,14 +7,14 @@ public class SumOfOddNumbers {
         Scanner input = new Scanner(System.in);
         int k;
         int sum = 0;
-        while (true){
+        while (true) {
             System.out.print("Enter a number: ");
             k = input.nextInt();
-            if(k %4 == 0)
+            if (k % 4 == 0)
                 sum += k;
-            if(k % 2 == 1)
+            if (k % 2 == 1)
                 break;
         }
-        System.out.print("Sum: "+sum);
+        System.out.print("Sum: " + sum);
     }
 }
