@@ -155,6 +155,7 @@ public class AdvancedCalculator {
                     break;
                 case 4:
                     divided();
+
                     break;
                 case 5:
                     power();
